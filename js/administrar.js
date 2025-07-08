@@ -119,7 +119,7 @@ function eliminarArticulo(id) {
         })
             .then(response => {
                 if (!response.ok) throw new Error("Error al eliminar"); // Verificamos que la respuesta sea exitosa
-                listarArticulos(); // Actualizamos la lista de artículos
+                listarArticulosCrud(); // Actualizamos la lista de artículos
             })
             .catch(error => console.error("Error al eliminar artículo:", error)); // Manejo de errores
     }
