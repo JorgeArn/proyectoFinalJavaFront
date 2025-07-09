@@ -1,3 +1,8 @@
+body {
+    background-image: url(../img/50531128-atraente-arranjo-do-cafe-feijoes-gratis-foto.jpg);
+    background-size: contain;
+}
+
 .submenu {
     position: relative;
 }

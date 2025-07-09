@@ -40,7 +40,7 @@ function listarArticulos(categoria = null) {
                             <img src="${articulo.imagen}" class="card-img-top" alt="${articulo.nombre}">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">${articulo.nombre}</h5>
-                                <p class="card-text">${articulo.precio.toFixed(2)}</p>
+                                <p class="card-text">$ ${articulo.precio.toFixed(2)}</p>
                                 <a href="#" class="btn btn-dark mt-auto" onclick="agregarCarrito(${articulo.id})">Agregar al carrito</a>
                             </div>
                         </div>
