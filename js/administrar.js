@@ -88,6 +88,7 @@ function guardarArticulo(event) {
             document.getElementById("form-articulo").reset();
             document.getElementById("idArticulo").value = "";
             listarArticulosCrud();
+            alert("Articulo guardado correctamente");
         })
         .catch(error => console.error("Error al guardar artículo:", error)); // Manejo de errores
 }
